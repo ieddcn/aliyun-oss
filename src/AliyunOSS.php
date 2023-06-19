@@ -1,6 +1,6 @@
 <?php
 
-namespace JohnLui;
+namespace Luminescent;
 
 require_once __DIR__.'/oss/aliyun.php';
 
@@ -10,7 +10,7 @@ use Aliyun\OSS\Models\OSSOptions;
 use Exception;
 
 /**
- * \JohnLui\AliyunOSS
+ * \Luminescent\AliyunOSS
  * 唯一的 manager 类
  */
 class AliyunOSS

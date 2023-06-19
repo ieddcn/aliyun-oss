@@ -2,7 +2,7 @@
 
 namespace App\Services;
 
-use JohnLui\AliyunOSS;
+use Luminescent\AliyunOSS;
 
 use Exception;
 use DateTime;
