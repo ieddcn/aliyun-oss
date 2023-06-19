@@ -10,19 +10,12 @@ AliyunOSS
                     /____/
 ```
 
-AliyunOSS 是阿里云 OSS 官方 SDK 的 Composer 封装，支持任何 PHP 项目，包括 Laravel、Symfony、TinyLara 等等。
+AliyunOSS 是阿里云 OSS 官方 SDK 的 Composer 封装，支持任何 PHP 项目
 
 
 ## 更新记录
 
-* 2017-03-08 `Release v2.0.0` v2 发布，在 API 易用性上进行了大量优化
-* 2016-09-12 `Release v1.3.5` 加入文件元信息的设置功能
-* 2016-07-20 `Release v1.3.4` 加入文件元信息的获取功能
-* 2016-01-31 `Release v1.3.2` 获取指定虚拟文件夹下的所有文件
-* 2015-10-23 `Release v1.3` 增加删除、复制、移动文件功能
-* 2015-08-07 `Release v1.2` 修复内存泄露 bug
-* 2015-01-12 `Release v1.1` 增加内外网配置分离
-* 2015-01-09 `Release v1.0` 完善功能，增加 Laravel 框架详细使用教程及代码
+* 2023-06-29 `Release v1.0.0`
 
 ## 安装
 
@@ -34,7 +27,7 @@ AliyunOSS 是阿里云 OSS 官方 SDK 的 Composer 封装，支持任何 PHP 项
 
 ```json
 require: {
-    "johnlui/aliyun-oss": "~2.0"
+    "luminescent/aliyun-oss": "~2.0"
 }
 ```
 
@@ -45,7 +38,7 @@ require: {
 运行命令：
 
 ```bash
-composer require johnlui/aliyun-oss:~2.0
+composer require luminescent/aliyun-oss
 ```
 
 ## 使用（以 Laravel 为例）
