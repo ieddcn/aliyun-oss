@@ -35,6 +35,7 @@ class AliyunOSS
     '日本' => 'oss-ap-northeast-1',
     '法兰克福' => 'oss-eu-central-1',
     '迪拜' => 'oss-me-east-1',
+    '成都' => 'oss-cn-chengdu',
   ];
 
   protected $CityURLArrayForVPC = [
